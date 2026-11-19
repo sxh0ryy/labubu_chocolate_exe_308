@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Bolsas</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>TIENDA DE BOLSAS</h1>
+        <p>Encuentra tu estilo favorito</p>
+    </header>
+
+    <main>
+
+        <h2>Bienvenidos a nuestra tienda</h2>
+
+        <p>
+            Somos una tienda dedicada a la venta de bolsas.
+            Ofrecemos diferentes modelos, tamaños y estilos
+            para todos los gustos.
+        </p>
+
+        <h2>Nuestra galeria</h2>
+
+        <div class="galeria">
+
+            <img src="https://media.glamour.mx/photos/66c2b9b635ab0c66993cf9f9/master/w_1600%2Cc_limit/IMG_5137.jpeg" alt="Bolsa de mano">
+
+            <img src="https://resources.claroshop.com/imagenes-sanborns-ii/1200/190231733157.jpg" alt="Bolsa elegante">
+
+            <img src="https://m.media-amazon.com/images/I/31jUEiUNKJL._AC_.jpg" alt="Bolsa moderna">
+
+        </div>
+
+        <h2>Comprar articulos</h2>
+
+        <div class="producto">
+            <label>Bolsa Chanel - $1500</label>
+            <input type="number" id="chanel" min="0" value="0">
+        </div>
+
+        <div class="producto">
+            <label>Bolsa Guess - $1200</label>
+            <input type="number" id="guess" min="0" value="0">
+        </div>
+
+        <div class="producto">
+            <label>Bolsa Tote - $800</label>
+            <input type="number" id="tote" min="0" value="0">
+        </div>
+
+        <button onclick="comprar()">COMPRAR</button>
+
+        <h3 id="resultado"></h3>
+
+        <a href="index.html" class="salir">Cerrar sesion</a>
+
+    </main>
+
+    <footer>
+        <p>Gracias por visitar nuestra tienda.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
